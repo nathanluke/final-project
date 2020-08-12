@@ -1,0 +1,48 @@
+.Navbar{
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: black;
+    height: 90px;
+
+}
+.Navbar-navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.Navbar-logo a {
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
+
+}
+
+.space {
+  flex: 1;
+
+}
+.Navbar-list ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.Navbar-list-items li {
+    padding: 0.5rem;
+    text-decoration: none;
+    list-style: none;
+}
+.Navbar-list-items a {
+    width: 2px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.Navbar-list-items a:hover,
+.Navbar-list-items a:active {
+    color: greenyellow
+}

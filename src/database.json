@@ -1,0 +1,36 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "name": "Nathan luke",
+      "loggedin": true
+    },
+    {
+      "id": 2,
+      "name": "Jamie adams",
+      "loggedin": true
+    },
+    {
+      "id": 3,
+      "name": "Westwood german",
+      "loggedin": false
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "message": "helloooo my name is Nathan",
+      "date": "23-7-2020"
+    },
+    {
+      "id": 2,
+      "message": "my name is Jamie",
+      "date": "1-2-2020"
+    },
+    {
+      "id": 3,
+      "message": "my name is Westwood ",
+      "date": "3-5-2020"
+    }
+  ]
+}
