@@ -1,3 +1,4 @@
 {
-    "mongoURI" : "mongodb+srv://Youngin23:anarkid@hyped.oeqx9.mongodb.net/hyped?retryWrites=true&w=majority"
+    "mongoURI" : "mongodb+srv://Youngin23:anarkid@hyped.oeqx9.mongodb.net/hyped?retryWrites=true&w=majority",
+    "webtokensecret": "secret"
 }
