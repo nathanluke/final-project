@@ -1,3 +1,7 @@
+.post-page {
+    padding: 60px;
+    background-color: aquamarine;
+}
 .grid{
     position: absolute;
     top: 150px;
@@ -31,7 +35,7 @@
     font-weight: bold;
 }
 .post-image-background {
-    background-color: #efefef;
+    background-color: grey;
 }
 .post-image img {
     display: block;
@@ -44,7 +48,7 @@
 /* this is grid 2's styling */
 .grid-2{
     position: absolute;
-    top: 150px;
+    top: 850px;
     left: 150px;
     border-radius: 3px;
     border: 1px silver;
@@ -57,7 +61,7 @@
 
 .post-user-grid-2 {
     position: absolute;
-    top: 10px;
+    top: 85 0px;
     padding: 16px;
     align-items: center;
 }
@@ -76,7 +80,7 @@
     font-weight: bold;
 }
 .post-image-background-grid-2 {
-    background-color: #efefef;
+    background-color: grey;
 }
 .post-image-grid-2 img {
     display: block;
@@ -86,10 +90,13 @@
     padding: 16px 16px;
 }
 
+
+
 /* this is grid 3's styling */
 .post-user-grid-3 {
     position: absolute;
-    top: 10px;
+    top: 1400px;
+    left: 490px;
     padding: 16px;
     align-items: center;
 }
@@ -108,7 +115,7 @@
     font-weight: bold;
 }
 .post-image-background-grid-3 {
-    background-color: #efefef;
+    background-color: grey;
 }
 .post-image-grid-3 img {
     display: block;
@@ -118,4 +125,36 @@
     padding: 16px 16px;
 }
 
+/* this is grid 4's styling. */
+.grid-4 {
+    position: absolute;
+    top: 2000px;
+    left: 490px;
+    padding: 16px;
+    align-items: center;
+}
+.post-user-avatar-grid-4 {
+    width: 30px;
+    height: 30px;
+}
+.post-user-avatar-grid-4 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;  
+}
+.post-user-name-grid-4 {
+    margin-left: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.post-image-background-grid-4 {
+    background-color: grey;
+}
+.post-image-grid-4 img {
+    display: block;
+    width: 100%;
+}
+.post-caption-grid-4 {
+    padding: 16px 16px;
+}
 

@@ -1,15 +1,19 @@
 .about-page-heading {
+    font-size: xx-large;
     font-family: monospace;
     font-style: oblique;
     position: absolute;
     top: 150px;
-    left: 630px;
+    left: 430px;
 }
-.about-paragraph  {
-    left: 630px;
-    bottom: 200px;
+.about-paragraph p  {
+    position: absolute;
+    left: 0;
+    top: 500px;
+    font-size: larger;
+    
 }
 .about-page {
-    background-color: rgb(51, 187, 17);
+    background-color: rgba(186, 214, 219, 0.9);
     padding-top: 45%;
 }

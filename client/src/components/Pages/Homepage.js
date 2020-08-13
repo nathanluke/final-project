@@ -16,6 +16,9 @@ class Homepage extends React.Component{
        })
    }
    render(){
+     const buttonClicked = () => {
+       alert('user registered')
+     }
        return (
            <div className="Home-page">
             
@@ -29,7 +32,7 @@ class Homepage extends React.Component{
                        <input name="password" placeholder= "Password" value={this.setState.passsword} onChange={e => this.change(e)} />
                  </form>
                  <div className="button">
-                     <button><a href="/">Register</a></button>
+                     <button onClick={buttonClicked}><a href="/">Register</a></button>
                  </div>
 
                </div>

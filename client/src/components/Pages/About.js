@@ -13,12 +13,9 @@ const About = () => {
           <p>HYPED started with a vision of a sneaker head that wanted one place where you could
              read up on all things culture , music, art and fashion.
              HYPED aims to bridge the gap between these different things that we love not only to bring these differnt forms of self-expression 
-             togetber but also to bring people from diffrent Art backgrounds together as i belive all the different genres are forms of Art</p><br/>
-
-          <p>i would just like to thank you for using this application i have built I hope that You will enjoy  and even learn new things about all these different forms of self-expression</p><br></br> 
-
-          <p>Many Thanks </p><br />
-          <h5>- Nathan Swartz </h5>  
+             togetber but also to bring people from diffrent Art backgrounds together as i belive all the different genres are forms of Art
+             i would just like to thank you for using this application i have built I hope that You will enjoy  and even learn new things about all these different forms of self-expression. Many thanks
+             <h5>- Nathan Swartz </h5></p>
       </div>
     </div>
   );

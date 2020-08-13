@@ -22,24 +22,36 @@ const Posts = () => {
           </div>
         </header>
       </div>
-
-      <div className="grid-2">
+      {/* this is for grid 2 */}
         <header>
-          <div className="post-user-grid-2">
+          <div className="grid-2">
             <div className="post-user-avatar-grid-2">
-              <img src="https://i.pravatar.cc/150?img=41" alt="" />
+              <img src="https://i.pravatar.cc/150?img=31" alt="" />
             </div>
             <div className="post-user-name-grid-2">
-              <span>Jennifer</span>
+              <span>Amy</span>
             </div>
             <div className="post-image-background-grid-2">
-                <img src="https://cdn.pixabay.com/photo/2016/05/09/22/34/vienna-1382700__480.jpg" alt="" />
+                <img src="https://cdn.pixabay.com/photo/2016/03/27/22/21/table-1284507__480.jpg" alt="" />
             </div>
-            <div className="post-caption-grid-2">Can't wait to get this when it drops</div>
+            <div className="Post-caption-grid-2">Working on a new mix</div>
           </div>
         </header>
-      </div>
 
+     
+      
+
+
+
+
+
+
+
+
+
+
+
+      {/* this is for the 3rd grid */}
       <div className="grid-3">
         <header>
           <div className="post-user-grid-3">
@@ -47,15 +59,34 @@ const Posts = () => {
               <img src="https://i.pravatar.cc/150?img=12" alt="" />
             </div>
             <div className="post-user-name-grid-3">
-              <span>Jennifer</span>
+              <span>Amy</span>
             </div>
             <div className="post-image-background-grid-3">
                 <img src="https://cdn.pixabay.com/photo/2016/11/29/07/36/audience-1868137__480.jpg" alt="" />
             </div>
-            <div className="post-caption-grid-3">Can't wait to get this when it drops</div>
+            <div className="post-caption-grid-3">Into the wild was good!, best party of the year!</div>
+          </div>
+        </header>
+
+
+        <div className="grid-4">
+        <header>
+          <div className="post-user-grid-4">
+            <div className="post-user-avatar">
+              <img src="https://i.pravatar.cc/150?img=12" alt="" />
+            </div>
+            <div className="post-user-name-grid-4">
+              <span>Jessie</span>
+            </div>
+            <div className="post-image-background-grid-4">
+                <img src="https://cdn.pixabay.com/photo/2016/08/24/20/39/violin-1617972__480.jpg" alt="" />
+            </div>
+            <div className="post-caption-grid-4">10 year old music prodigy, sets a new world record!</div>
           </div>
         </header>
       </div>
+      </div>
+
     </div>
   );
 };
