@@ -1,0 +1,15 @@
+.about-page-heading {
+    font-family: monospace;
+    font-style: oblique;
+    position: absolute;
+    top: 150px;
+    left: 630px;
+}
+.about-paragraph  {
+    left: 630px;
+    bottom: 200px;
+}
+.about-page {
+    background-color: rgb(51, 187, 17);
+    padding-top: 45%;
+}

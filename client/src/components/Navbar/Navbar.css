@@ -1,3 +1,4 @@
+  
 .Navbar{
     width: 100%;
     top: 0;
@@ -5,7 +6,6 @@
     position: fixed;
     background-color: black;
     height: 90px;
-
 }
 .Navbar-navigation {
     display: flex;
@@ -18,7 +18,6 @@
         color: white;
         text-decoration: none;
         font-size: 2rem;
-
 }
 
 .space {
@@ -39,7 +38,7 @@
     width: 2px;
     color: white;
     text-decoration: none;
-    
+    font-size: medium;
 }
 
 .Navbar-list-items a:hover,
