@@ -27,8 +27,7 @@ class Homepage extends React.Component{
                <div className="registration-form"> 
                <form className="registration-form-items">
                        <input name="firstName" placeholder= "First Name" value={this.setState.firstName} onChange={e => this.change(e)} />
-                       <input name="lastName" placeholder= "Last Name" value={this.setState.lastName} onChange={e => this.change(e)} />
-                       <input name="username" placeholder= "Username" value={this.setState.username} onChange={e => this.change(e)} />
+                        <input name="email" placeholder = "Email" value={this.setState.email} onChange={e => this.change(e)} />
                        <input name="password" placeholder= "Password" value={this.setState.passsword} onChange={e => this.change(e)} />
                  </form>
                  <div className="button">
